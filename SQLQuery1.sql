@@ -40,8 +40,8 @@ CREATE TABLE reservations
 
 INSERT INTO dbo.hotelsList (HotelName,Foundation,HotelAddress,IsActive)
 Values ('Турист','1987','вул. Червоноармійська 184','Inactive'),
-		('Bukovyna','1990','вул. Головна 141','Active'),		
-		('Edelweiss','1999','вул. Головна 46','Active');
+		('Edelweiss','1990','вул. Головна 141','Active'),		
+		('Bukovyna','1999','вул. Головна 46','Active');
 
 SELECT * FROM hotelslist;
 
